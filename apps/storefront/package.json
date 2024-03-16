@@ -47,6 +47,7 @@
       "@react-email/components": "^0.0.7",
       "@react-email/render": "^0.0.7",
       "@tanstack/react-table": "^8.10.1",
+      "caniuse-lite": "^1.0.30001597",
       "class-variance-authority": "^0.7.0",
       "clsx": "^2.0.0",
       "cmdk": "^0.2.0",
