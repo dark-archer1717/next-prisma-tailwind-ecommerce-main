@@ -107,7 +107,7 @@ function Socials() {
    return (
       <div className="mb-6 flex justify-center space-x-6 text-muted-foreground">
          <a
-            href="https://instagram.com/accretence"
+            href="https://www.instagram.com/efazul_fayad/"
             target="_blank"
             rel="noreferrer"
          >
@@ -115,7 +115,7 @@ function Socials() {
             <span className="sr-only">Instagram page</span>
          </a>
          <a
-            href="https://twitter.com/accretence"
+            href="https://twitter.com/EfazulFayad17"
             target="_blank"
             rel="noreferrer"
          >
@@ -123,7 +123,7 @@ function Socials() {
             <span className="sr-only">Twitter page</span>
          </a>
          <a
-            href="https://github.com/accretence"
+            href="https://github.com/dark-archer1717"
             target="_blank"
             rel="noreferrer"
          >

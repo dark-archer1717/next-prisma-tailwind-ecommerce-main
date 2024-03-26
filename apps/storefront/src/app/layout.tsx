@@ -8,15 +8,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-   title: 'Store',
+   title: 'Enzo Gadgets',
    description: 'E-Commerce Store',
    keywords: ['E-Commerce', 'Store', 'Shop'],
-   authors: [
-      { name: 'Amirhossein Mohammadi', url: 'https://github.com/accretence' },
-   ],
+   authors: [{ name: 'Kazi Efazul Karim', url: 'https://efazulkarim.live' }],
    colorScheme: 'dark',
-   creator: 'Amirhossein Mohammadi',
-   publisher: 'Amirhossein Mohammadi',
+   creator: 'Kazi Efazul Karim',
+   publisher: 'Kazi Efazul Karim',
 }
 
 export default async function RootLayout({

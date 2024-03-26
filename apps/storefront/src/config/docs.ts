@@ -14,7 +14,7 @@ export const docsConfig: DocsConfig = {
 
       {
          title: 'GitHub',
-         href: 'https://github.com/accretence',
+         href: 'https://github.com/dark-archer1717',
          external: true,
       },
    ],
