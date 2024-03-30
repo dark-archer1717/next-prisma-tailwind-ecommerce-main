@@ -1,9 +1,5 @@
 {
    "name": "next-prisma-tailwind-ecommerce",
-   "author": {
-      "name": "Amirhossein Mohammadi",
-      "url": "https://github.com/accretence"
-   },
    "license": "MIT",
    "scripts": {
       "yarn": "yarn",
