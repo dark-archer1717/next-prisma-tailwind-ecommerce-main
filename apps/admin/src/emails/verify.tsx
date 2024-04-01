@@ -1,17 +1,12 @@
+//src/email/verify.tsx
 import {
    Body,
-   Button,
-   Column,
    Container,
    Head,
    Heading,
    Hr,
    Html,
-   Img,
-   Link,
    Preview,
-   Row,
-   Section,
    Tailwind,
    Text,
 } from '@react-email/components'

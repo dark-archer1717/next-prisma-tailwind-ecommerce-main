@@ -33,6 +33,6 @@ export function getErrorResponse(
    )
 }
 
-export function isVariableValid(variable) {
+export function isVariableValid(variable: any): boolean {
    return variable !== null && variable !== undefined
 }

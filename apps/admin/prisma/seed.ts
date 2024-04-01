@@ -30,7 +30,7 @@ function getRandomBoolean() {
 const prisma = new PrismaClient()
 
 async function main() {
-   let createdProducts = [],
+   const createdProducts = [],
       createdProviders = []
 
    const providers = ['Parsian', 'Pasargad', 'Dey']

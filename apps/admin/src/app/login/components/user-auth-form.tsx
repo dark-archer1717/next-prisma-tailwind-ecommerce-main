@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { cn, isVariableValid } from '@/lib/utils'
-import { isEmailValid, isIranianPhoneNumberValid } from '@persepolis/regex'
+import { isBangladeshiPhoneNumberValid, isEmailValid } from '@/lib/validator'
 import { Loader, MailIcon, SmartphoneIcon } from 'lucide-react'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import * as React from 'react'
@@ -179,15 +179,16 @@ function TryComponents({ isLoading, setIsLoading, setFetchedOTP }) {
                   onChange={handlePhoneChange}
                   required
                />
-               {isVariableValid(phone) && !isIranianPhoneNumberValid(phone) && (
-                  <p className="mt-2 text-sm text-red-700">
-                     Phone Number is not valid.
-                  </p>
-               )}
+               {isVariableValid(phone) &&
+                  !isBangladeshiPhoneNumberValid(phone) && (
+                     <p className="mt-2 text-sm text-red-700">
+                        Phone Number is not valid.
+                     </p>
+                  )}
             </div>
             <Button
                onClick={onSubmitPhone}
-               disabled={isLoading || !isIranianPhoneNumberValid(phone)}
+               disabled={isLoading || !isBangladeshiPhoneNumberValid(phone)}
             >
                {isLoading && <Loader className="mr-2 h-4 animate-spin" />}
                Login with Phone
